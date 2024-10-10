@@ -76,7 +76,7 @@ const sectionToggleHandler = ()=>{
 
       {/* top status bar */}
       <div className="w-full h-24 bg-[#293234] flex flex-col items-start justify-center p-10 gap-2
-      max-sm:p-0
+      max-sm:p-0 max-sm:px-4
        ">
 
         {/* note */}
