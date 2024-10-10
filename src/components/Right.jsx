@@ -75,7 +75,9 @@ const sectionToggleHandler = ()=>{
    {historySection && ( <div>
 
       {/* top status bar */}
-      <div className="w-full h-24 bg-[#293234] flex flex-col items-start justify-center p-10 gap-2 ">
+      <div className="w-full h-24 bg-[#293234] flex flex-col items-start justify-center p-10 gap-2
+      max-sm:p-0
+       ">
 
         {/* note */}
         <h1 className="text-white font-bold text-l">MOVIES YOU WATCHED</h1>
