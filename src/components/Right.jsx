@@ -76,7 +76,7 @@ const sectionToggleHandler = ()=>{
 
       {/* top status bar */}
       <div className="w-full h-24 bg-[#293234] flex flex-col items-start justify-center p-10 gap-2
-      max-sm:p-0 max-sm:px-4
+      max-sm:p-0 
        ">
 
         {/* note */}
@@ -156,7 +156,7 @@ const sectionToggleHandler = ()=>{
             {/* star⭐-bar */}
             <div
              className='w-[90%] h-16 bg-[#293234] flex rounded-xl
-              flex-col items-center justify-center gap-2 py-12'>
+              flex-col items-center justify-center  gap-2 py-12'>
           
             <StarRating giveMeRating={userRatingHandler}
             setAddToListBtn={setAddToListBtn} addToListBtn={addToListBtn}/>

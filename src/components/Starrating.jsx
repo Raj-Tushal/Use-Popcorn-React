@@ -15,7 +15,7 @@ function StarRating({ maxStars = 10,giveMeRating,setAddToListBtn,addToListBtn })
   }
 
   return (
-    <div className="flex w-full px-2 items-center space-x-1 text-yellow-400">
+    <div className="flex w-full px-2 items-center justify-center space-x-1 text-yellow-400">
       {/* Create stars based on the maxStars prop */}
       {[...Array(maxStars)].map((_, index) => {
         const starNumber = index + 1;
